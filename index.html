@@ -5,12 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Para Lara, o Amor da Minha Vida</title>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * {
             margin: 0;
-   	 	    padding: 0;
-   	  	    box-sizing: border-box;
-   	  	    font-family: 'Comic Neue', cursive, sans-serif;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Aplica a nova fonte apenas aos elementos de texto */
+        body, p, h1, h2, h3, h4, h5, h6, .love-card, .poetry, .poem, 
+        .music-player, .gallery, button:not(.control-btn), .song,
+        .video-placeholder p, #now-playing {
+            font-family: 'Comic Neue', cursive, sans-serif;
+        }
+
+        /* Garante que os ícones mantenham a fonte correta */
+        i, .fas, .far, .fab, .fa, [class*="fa-"] {
+            font-family: "Font Awesome 6 Free" !important;
         }
         
         body {
@@ -928,3 +940,4 @@
 </body>
 
 </html>
+
